@@ -1,0 +1,199 @@
+.bg_green {
+  background: #20ab58;
+  /* margin-top: 70px !important; */
+}
+.login_page {
+  height: 100vh;
+  align-items: center !important;
+}
+.log_head img {
+  width: 100px;
+}
+.log_head h1 {
+  font-weight: 900;
+  color: #20ab58 !important;
+  font-size: 30px;
+}
+.input-group-text {
+  border-radius: 0 !important;
+  color: #20ab58;
+}
+.login_page .form-control {
+  padding: 25px 10px !important;
+}
+.form-control span {
+  font-size: 25px;
+}
+.login_f a {
+  color: #666;
+  font-size: 20px;
+  text-decoration: none;
+}
+.login_f a:hover {
+  color: #20ab58;
+}
+.login_fr {
+  text-align: right;
+}
+.login_fr button,
+.login_fr a {
+  border: none;
+  background: #20ab58;
+  color: #fff;
+  padding: 3px 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.sidebar {
+  width: 370px !important;
+  background: #eff1f3;
+}
+.topbar {
+  height: 100px !important;
+}
+.top_logo img {
+  height: 80px;
+}
+.nav-item a {
+  color: #fff !important;
+}
+.sidebar .nav-item .nav-link {
+  width: auto !important;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+.nav-item .nav-link {
+  background: #20ab58;
+  padding: 10px !important;
+  margin: 10px;
+}
+.sidebar .nav-item .nav-link span {
+  font-size: 20px;
+  display: inline;
+}
+.sidebar-dark .nav-item .nav-link i {
+  color: #fff !important;
+  font-size: 20px;
+}
+.sidebar-dark #sidebarToggle {
+  background: #20ab58;
+  color: #fff;
+  margin-top: 50px;
+}
+.sidebar-dark #sidebarToggle:hover {
+  background: #20ab58;
+}
+.sidebar-dark #sidebarToggle::after {
+  color: #fff;
+}
+.top_logo span {
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 30px;
+  padding-top: 10px;
+  display: inline-block;
+}
+.btn-link {
+  color: #fff;
+}
+#userDropdown span {
+  font-size: 20px;
+}
+.dropdown-item a {
+  color: #666 !important;
+}
+.topbar .dropdown .dropdown-menu {
+  background: #20ab58;
+}
+.parviicon i {
+  font-size: 30px;
+}
+.form_upload {
+  text-align: center;
+  margin-top: 50px;
+}
+.form_upload h2 {
+  color: #20ab58;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.card-header {
+  background: #20ab58;
+}
+.card-header .date {
+  font-size: 20px;
+  color: #fff;
+}
+
+.input-group-prepend {
+  margin-right: -1px;
+  width: 110px;
+  background: transparent;
+}
+.input-group-text {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content_area .input-group-text {
+  background: transparent;
+  border-color: transparent;
+}
+.form-control {
+  background: #20ab58;
+  border: none;
+  columns: #fff;
+}
+#exampleFormControlTextarea1 {
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+}
+.user .form-control {
+  background-color: #eaecf4;
+  border: 1px solid #d1d3e2;
+  border-left: 0;
+}
+.table .thead-dark th {
+  color: #fff;
+  background-color: #20ab58;
+  border-color: #20ab58;
+}
+/* Login Page End */
+@media (max-width: 992px) {
+  .top_logo span {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .log_head h1 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .login_f a {
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .login_fr button {
+    font-size: 16px;
+  }
+  .sidebar .nav-item .nav-link span {
+    font-size: 12px;
+  }
+  .top_logo img {
+    height: 50px;
+  }
+  .nav-item .nav-link {
+    margin: 0;
+  }
+  .parviicon i {
+    font-size: 25px;
+  }
+  .form_upload {
+    margin-top: 0;
+  }
+  .form_upload h2 {
+    font-size: 18px;
+  }
+}
